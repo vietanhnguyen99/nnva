@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" class="w-full h-full">
+    <head>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=divice-width, intinial-scale=1.0">
+            <title>Viet Anh Portfolio</title>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../assets/style.css">
+            <link rel="stylesheet" href="../assets/blog-details.css">
+            <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon"/>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/e8079f8f5d.js" crossorigin="anonymous"></script>
+            <script src="https://cdn.tailwindcss.com"></script>
+            <script src="https://kit.fontawesome.com/e8079f8f5d.js" crossorigin="anonymous"></script>
+            <script src="../assets/all.min.js"></script>
+        </head>
+    </head>
+    <body class="w-full h-auto scroll-smooth text-base bg-fixed	bg-center cursor-default">
+        <div class="main-container text-left m-auto relative overflow-hidden">
+            <!-- Header -->
+            <div class="header w-full flex items-center	flex-col relative">
+                <div class="navbar fixed w-full flex justify-center h-20" id="navbar">
+                    <div class="navbar-items relative flex items-center justify-between w-full px-0">
+                        <div class="logo" id="logo">
+                            <img src="../assets/images/new-logo-V-white.png" alt="" class="relative w-12 h-12 cursor-pointer">
+                        </div>
+                        <div class="navigation-block">
+                            <div class="navigation relative flex items-center active" id="navigation">
+                                <a href="#portfolio" onclick="portfolio()">Portfolio</a>
+                                <a href="#resume" onclick="resume()">Resume</a>
+                                <a href="#blog" onclick="blog()">Blog</a>
+                                <a href="#contact" onclick="contact()">Contact</a>
+                            </div>
+                            <div class="toggle" id="toggle">
+                                <button class="toggle-icon relative w-full h-full flex flex-col items-end justify-around cursor-pointer border-none" id="toggle-icon">
+                                    <div class="toggle-line w-3/4 right-0 rounded-xl" id="toggle-line"></div>
+                                </button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-hide bg-zinc-900 w-full h-20 fixed" id="navbar-hide"></div>
+            </div>
+            <!-- Blog post -->
+            <div class="blog-details-container mb-12">
+                <div class="blog-details-bg">
+                    <img src="../assets/images/blog/blog-details-theme-1.jpeg" alt="">   
+                </div>   
+            </div>
+            <div class="blog-details-title text-center ml-auto mr-auto mb-12">
+                <h1 class="text-4xl font-bold mr-auto ml-auto w-3/4 ml-auto mr-auto uppercase">Mùa hạ đẹp nhất</h1>
+                <div class="blog-description flex justify-between mt-12 mb-8 w-3/4 ml-auto mr-auto">
+                    <div class="text-xl text-white font-normal flex items-center">
+                        <div class="tag-keyword flex items-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M938 458.8l-29.6-312.6c-1.5-16.2-14.4-29-30.6-30.6L565.2 86h-.4c-3.2 0-5.7 1-7.6 2.9L88.9 557.2a9.96 9.96 0 0 0 0 14.1l363.8 363.8c1.9 1.9 4.4 2.9 7.1 2.9s5.2-1 7.1-2.9l468.3-468.3c2-2.1 3-5 2.8-8zM699 387c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64z"></path></svg>
+                            <a href="#" class="ml-2">Life</a>
+                        </div>
+                    </div>
+                    <div class="post-date text-zinc-300 flex items-center">
+                        <i class="fa-regular fa-calendar mr-2"></i>
+                        <p>24/07/2023</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="blog-content-box ml-auto mr-auto my-8">
+                <blockquote class="w-3/4 text-xl text-white ml-auto mr-auto">
+                    <p>
+                        <q>Hồi còn nhỏ, như bao đứa trẻ khác, mình phát cuồng vì mùa hè. Trẻ con mà, đứa nào mà không thích cơ chứ. Mùa hè tới 
+                        giống như một phần thưởng lớn sau cả một năm học dài đằng đẵng. Thế nhưng, càng lớn lên, càng trưởng thành, hình ảnh mùa 
+                        hè trong mình cũng dần thay đổi. Lớn hơn một chút, mùa hè của mình là những kì thi quan trọng của cuộc đời, lớn hơn 
+                        chút nữa, đó là những ngày hè mình phải dậy sớm hòa mình vào cái tắc đường đặc trưng của Hà Nội để kịp giờ check-in 
+                        ở công ty, hay là những ngày tháng giam mình trong 4 góc phòng vì Covid 19. Bước qua tuổi 20, mình càng ghét cái thời
+                        tiết khắc nghiệt của những tháng hè, combo nắng nóng 40&deg;C cùng với biển người trên đường và tiếng còi xe inh ỏi 
+                        thật sự là một thảm họa. Mình luôn mong mùa hè trôi qua thật nhanh để nhường chỗ cho mùa thu trong vắt đầy trữ tình
+                        của Hà Nội. Những mùa hè cứ thế trôi đi lặng lẽ như vậy với mình trong những năm tháng đầu của tuổi trưởng
+                        thành, cho tới khi...</q>
+                    </p>
+                </blockquote>
+                <div class="img-box w-3/4 ml-auto mr-auto my-8">
+                    <img src="../assets/images/blog/blog-img1-box-1.png" alt="" class="w-100 h-auto center">
+                </div>
+                <p class="w-3/4 text-xl text-white font-light ml-auto mr-auto">
+                    Những ngày cuối hè của năm 23 tuổi, mình vừa chấm dứt tình bạn 10 năm với người bạn thân nhất của mình, nó xảy ra vào giai
+                    đoạn công việc của mình cũng không hề thuận lợi. Đó là khoảng thời gian mà mình có cảm giác như tất cả mọi thứ đều quay lưng 
+                    với mình. Nghĩ lại, đó là những chuỗi ngày mà mình chỉ đang cố gắng để tồn tại chứ không thực sự sống một cách nghiêm túc, thời 
+                    gian biểu của mình lặp đi lặp lại như một vòng tuần hoàn. Thức dậy vào sáng sớm và đi làm, cố gắng làm việc ở trong một môi trường 
+                    mà mình không hề yêu thích, rời công ty vào lúc 7h tối và làm bạn với rượu bia cho tới khuya, có những ngày mình bỏ qua cả giấc ngủ. 
+                    Thế rồi sau một quãng thời gian vô trách nhiệm với bản thân, mình quyết định sẽ phải thay đổi để quay trở lại với cuộc sống và trở 
+                    thành phiên bản tốt hơn. 
+                    <br><br>
+                    Đầu năm nay, mình đã có suy nghĩ về những hướng đi mới trong công việc và quyết định tham gia một khóa học 
+                    để chuyển ngành, đồng thời cũng mong muốn có thêm những mối quan hệ mới và học hỏi nhiều hơn ngoài chuyên môn. Mọi thứ diễn ra theo 
+                    đúng những gì mình tưởng tượng, mình học trong một lớp có rất nhiều người giỏi, mọi người rất hòa đồng và gắn kết với nhau. Mặc dù 
+                    vậy, bên cạnh việc tiếp xúc với những con người tuyệt vời thì mình cũng phải tiếp thu khá nhiều kiến thức từ một ngành nghề mới. 
+                    Song song với việc đi học, mình vẫn cố gắng duy trì công việc full-time để đảm bảo có được một khoản tài chính dự phòng trước khi 
+                    chuyển ngành. Tuy nhiên, mình đã không cân bằng được lâu khi công việc ở công ty quá nặng và thường xuyên phải overtime đến tối muộn
+                    khiến quỹ thời gian cho việc học của mình bị bó hẹp lại. Và vào những ngày đầu hè của năm 24 tuổi, mình quyết định nghỉ việc để tập 
+                    trung cho việc học, chuẩn bị cho một bước nhảy mới trong sự nghiệp và dành nhiều thời gian hơn cho bản thân. 
+                </p>
+                <div class="img-box w-3/4 ml-auto mr-auto my-8">
+                    <img src="../assets/images/blog/blog-img2-box-1.jpeg" alt="" class="w-100 h-auto center">
+                </div>
+                <p class="w-3/4 text-xl text-white font-light ml-auto mr-auto">
+                    Khác với mọi năm, năm nay mình đón nhận mùa hè với tràn trề sự hứng khởi và hi vọng. Dù vừa mới nghỉ việc, mình phải chấp nhận với việc 
+                    tháng tới sẽ không còn được nghe tiếng &lowast;ting ting&lowast; vào ngày mùng 6, nhưng bù lại, mình có được sự tự do về thời gian và có 
+                    thể tận dụng để học và làm những thứ mình thích. Trùng hợp thay, ở lớp của mình đang học, cũng có những người quyết định gác lại công việc 
+                    hiện có để tất tay cho việc học và nhảy việc giống như mình, cùng với đó có một số bạn làm freelancer nên không bị áp lực phải tất bật hối
+                    hả vào buổi sáng cho kịp giờ làm. Vì vậy, vào ngày đầu tiên nghỉ việc, mình đã rủ được mọi người dậy sớm đạp xe. Bọn mình đã duy trì mật độ
+                    1 đến 2 lần mỗi tuần và còn thường xuyên hẹn hò học nhóm và cùng nhau trò chuyện về nhiều lĩnh vực. Ngoài những ngày đạp xe, mình cũng cố 
+                    gắng thích nghi với việc chạy bộ mỗi sáng. Khoảng thời gian này thật sự đã cho mình cảm giác được quay trở lại làm chính mình.
+                    <br><br>
+                    Hơn bao giờ hết, mình đang khát khao trở thành phiên bản tốt hơn của bản thân sau những tháng ngày chơi vơi mất định hướng của một năm về trước. 
+                    Bên cạnh mục tiêu cố gắng để có cho mình một tương lai xán lạn và vững chắc, cũng có một lý do khiến mình quyết tâm hơn để cải thiện bản thân, 
+                    đó chính là khi mình nhận ra mình đã thực sự fall in love một cô gái. Cảm giác ấy khiến cho mình có thêm động lực để trở nên tốt hơn, để xứng
+                    đáng với cô ấy. Đã từ rất lâu, mình không nghĩ tới chuyện yêu, mình không có cảm xúc quá mãnh liệt với mỗi người con gái mình gặp trong suốt 
+                    nhiều năm liền, thế nhưng lần này, sự rung cảm ấy thực sự biến mình trở thành một đứa nhóc chưa từng biết yêu. Mình ngại ngùng và không biết
+                    mở lời ra sao để bắt chuyện với cô ấy. Thế rồi, sau những lần rụt rè và lưỡng lự, mình cũng đã lấy hết can đảm để bắt chuyện, kiếm đủ mọi lý do 
+                    để được gặp cô ấy nhiều hơn. Cái cảm giác ấy, được ở bên cạnh và lắng nghe cô ấy kể về mọi thứ chuyện trong cuộc sống khiến mình muốn chìm đắm vào 
+                    cái mùa hè này mãi và ước rằng mình có thể làm gì đó để nó kéo dài bất tận. Đã vài tháng trôi qua, mình vẫn không thể ngăn nổi tim mình đập thình 
+                    thịch và miệng đôi khi lắp ba lắp bắp khi nói chuyện với cô ấy, dù đã có phần tự tin hơn. Tiếng sét ái tình này xảy ra vào đúng thời điểm mình đang 
+                    đứng giữa ngã rẽ trong sự nghiệp, chưa có được một công việc ổn định và nền tảng cho một tương lai vững chắc, cũng không có được ngoại hình như ý 
+                    muốn sau một quãng thời gian dài xoay quanh vòng lặp điển hình mà một lập trình viên phải trải qua "Eat, sleep, code, repeat". Nghe thì có lẽ nhiều
+                    người sẽ nghĩ mình bị "overthinking", nhưng mình nghĩ ở thời điểm này, đâu có cô gái nào muốn yêu một người không có tương lai đâu chứ, cũng sẽ 
+                    chẳng có mấy chàng trai ở tuổi 24 sẵn sàng bước vào một mối quan hệ nghiêm túc khi không thể có ít nhất là một công việc với thu nhập ổn định. 
+                </p>
+                <div class="img-box w-3/4 ml-auto mr-auto my-8">
+                    <img src="../assets/images/blog/blog-img3-box-1.jpeg" alt="" class="w-100 h-auto center">
+                </div>
+                <p class="w-3/4 text-xl text-white font-light ml-auto mr-auto">
+                    Tháng 7 dần trôi đi và tháng 8 gần tới, thời gian để mình có thể gặp cô ấy cũng ngày càng ngắn lại. Mình vẫn đang chạy đua mỗi ngày để có thể đạt 
+                    được một chút gì đó để tự tin bày tỏ tình cảm của mình trước khi mùa hạ đi qua, cũng là thời điểm bọn mình không còn gặp nhau thường xuyên được nữa. 
+                    Dù không biết được kết quả sẽ ra sao, thành công hay thất bại, mình vẫn đang cố gắng hết mình vì bản thân và vì người mà mình đang mang tình cảm sâu 
+                    đậm. Sau từng ấy mùa hè, lần đầu tiên kể từ khi mình bước vào cuộc sống của một người lớn, mùa hè lại trôi đi nhanh đến vậy. Mùa hè này vẫn là cái 
+                    nắng gay gắt dưới bầu trời Hà Nội, nhưng đối với mình nó không còn mang cảm giác khó chịu và ngột ngạt nữa, thay vào đó là cảm giác dịu êm và kì diệu 
+                    đến lạ.  
+                    <br><br>
+                    Mình không chắc rằng sau này còn được trải qua những mùa hè tươi đẹp như vậy nữa hay không, nhưng trước mắt mình vẫn cứ tận hưởng nốt quãng thời gian 
+                    ít ỏi còn lại đã. Khi mùa hạ này đóng lại, những người đã đến, có thể họ sẽ rời đi hoặc ở lại trong cuộc đời mình sau này, nhưng dù sao đi nữa họ cũng 
+                    đã cho mình những kỉ niệm đẹp. Cảm ơn mọi người, và cảm ơn cô ấy vì đã trở thành mùa hạ đẹp nhất của mình! 
+                </p>
+            </div>
+            <div class="author w-3/4 ml-auto mr-auto text-center text-white text-xl pt-8 mb-8 flex flex-col items-center">
+                <div class="author-ava">
+                    <img src="../assets/images/blog/author-ava.jpg" alt="" class="w-100 h-100">
+                </div>
+                <a href="https://www.instagram.com/_viettanhng_/" target="_blank" class="text-md">@_viettanhng_</a>
+            </div>
+            <div class="blog-divier-box ml-auto mr-auto mb-8">
+                <div class="blog-divier w-3/4 ml-auto mr-auto"></div>
+            </div>
+            <div class="related-article-title w-3/4 ml-auto mr-auto text-center mb-6 text-white text-2xl">Related article</div>
+            <div class="related-article-container ml-auto mr-auto mb-16">
+                <div class="related-article-box w-3/4 ml-auto mr-auto flex">
+                    <div class="related-article-details w-1/3 relative">
+                        <img src="../assets/images/bg-blog-details.jpeg" alt="">
+                        <div class="read-more-btn w-100 flex justify-center">
+                            <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="60px" width="60px" xmlns="http://www.w3.org/2000/svg"><path d="M11.0858 7.75739L15.3284 12L11.0858 16.2427L9.67157 14.8285L12.5 12L9.67157 9.1716L11.0858 7.75739Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12Z" fill="#ffffff"></path></svg>
+                        </div>
+                        <div class="related-article-overlay top-0 left-0 absolute flex items-end">
+                            <h2 class="text-xl text-white font-bold">Lorem Ipsum is simply dummy printing and typesetting industry</h2>
+                        </div>
+                    </div>
+                    <div class="related-article-details w-1/3 relative">
+                        <img src="../assets/images/blog/blog-theme-4.jpeg" alt="">
+                        <div class="read-more-btn w-100 flex justify-center">
+                            <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="60px" width="60px" xmlns="http://www.w3.org/2000/svg"><path d="M11.0858 7.75739L15.3284 12L11.0858 16.2427L9.67157 14.8285L12.5 12L9.67157 9.1716L11.0858 7.75739Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12Z" fill="#ffffff"></path></svg>
+                        </div>
+                        <div class="related-article-overlay top-0 left-0 absolute flex items-end">
+                            <h2 class="text-xl text-white font-bold">Lorem Ipsum is simply dummy printing and typesetting industry</h2>
+                        </div>    
+                    </div>
+                    <div class="related-article-details w-1/3 relative">
+                        <img src="../assets/images/blog/blog-theme-5.jpeg" alt="">
+                        <div class="read-more-btn w-100 flex justify-center">
+                            <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="60px" width="60px" xmlns="http://www.w3.org/2000/svg"><path d="M11.0858 7.75739L15.3284 12L11.0858 16.2427L9.67157 14.8285L12.5 12L9.67157 9.1716L11.0858 7.75739Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12Z" fill="#ffffff"></path></svg>
+                        </div>
+                        <div class="related-article-overlay top-0 left-0 absolute flex items-end">
+                            <h2 class="text-xl text-white font-bold">Lorem Ipsum is simply dummy printing and typesetting industry</h2>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <!-- Assistive-touch -->
+            <div class="assistive-touch fixed flex flex-col items-center justify-center rounded-lg">
+                <div class="assistive-touch-item">
+                    <div class="play-toggle" id="play-theme-song">
+                        <div class="wave-line" id="wave-line-1"></div>
+                        <div class="wave-line" id="wave-line-2"></div>
+                        <div class="wave-line" id="wave-line-3"></div>
+                        <div class="wave-line" id="wave-line-4"></div>
+                        <div class="wave-line" id="wave-line-5"></div>
+                        <div class="wave-line" id="wave-line-6"></div>
+                        <div class="wave-line" id="wave-line-7"></div>
+                        <div class="wave-line" id="wave-line-8"></div>
+                    </div>
+                    <div class="toggle__status-mode flex items-center" id="status-mode">
+                        <div class="toggle__status-mode-container flex items-center">
+                            <div class="toggle__status-mode-container--icon flex justify-center items-center">
+                                <i class="mode-btn fa-solid fa-cloud-moon"></i>
+                                <i class="mode-btn fa-solid fa-sun"></i>
+                            </div>
+                        </div>
+                        <div class="toggle__status-mode-container--description">
+                            <div class="dark-text" style="display: block;">
+                                <p>Dark <br> mode</p>
+                            </div>
+                            <div class="light-text" style="display: none;">
+                                <p>Light <br> mode</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- Footer -->
+            <footer class="relative z-50 bottom-0 left-0 mt-30">
+                <div class="footer w-full h-20 bg-zinc-900 text-white text-md flex justify-center items-center font-normal">
+                    <p>© 2023 Copyright <span class="font-bold">Viet Anh Nguyen</span>. All Rights Reserved.</p>
+                </div>
+            </footer>
+            <audio id="theme-song" controls autoplay loop hidden>
+                <source src="../assets/sounds/Married Life (From _Up_).mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <script src="../assets/main.js"></script>
+        <script type="text/javascript">
+            function portfolio() {
+                window.location.href = "../../index.html#portfolio";
+            }
+            function blog() {
+                window.location.href = "../blog.html";
+            }
+            function resume() {
+                window.location.href = "../../index.html#resume";
+            }
+            function contact() {
+                window.location.href = "../../index.html#contact";
+            }
+        </script>
+    </body>
+    <script src="./assets/main.js"></script>
+</html>
