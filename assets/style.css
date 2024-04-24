@@ -1768,15 +1768,87 @@ body {
     }
 
     .case-study-wrapper {
-        width: 60vw;
+        width: 70vw;
+        top: 30%;
     }
 
-    .case-study-wrapper {
-        top: 32%;
+    .case-study-wrapper .case-study-name {
+        margin: 5px 6px;
     }
 
     .case-study-images li .hero-number-back {
         bottom: 6px;
+    }
+
+    #fb-svg, #ins-svg, #lk-svg, #bh-svg {
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    .email-link {
+        font-size: 20px;
+    }
+
+    .contact-line span {
+        width: 80%;
+        text-align: center;
+    }
+
+    .case-study-images {
+        width: 80vw;
+    }
+
+    .facebook::before, .instagram::before, .linkedin::before, .behance::before {
+        top: 50px;
+    }
+
+    .facebook::after, .instagram::after, .linkedin::after, .behance::after {
+        top: 52px;
+    }
+
+    .facebook::before {
+        left: 10px;
+    }
+
+    .instagram::before {
+        left: 98px;
+    }
+
+    .facebook::after {
+        left: -30px;
+    }
+
+    .instagram::after {
+        left: 58px;
+    }
+
+    .linkedin::before {
+        left: 186px;
+    }
+
+    .linkedin::after {
+        left: 146px;
+    }
+
+    .behance::before {
+        left: 274px;
+    }
+
+    .behance::after {
+        left: 234px;
+    }
+
+    .contact-container .shadow-title {
+        top: 16%;
+        width: 18%;
+    }
+
+    .contact-line span {
+        z-index: 10;
+    }
+
+    .case-study-wrapper .case-study-name a {
+        color: #f5f5f5;
     }
 }
 
@@ -1787,6 +1859,102 @@ body {
 /* @media only screen and (max-width: 480px) {
 
 } */
+
+@media only screen and (max-width: 393px) {
+    .nav-btn a {
+        font-size: 2rem;
+    }
+
+    .curve-text {
+        top: 20px;
+        right: 20px;
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+
+    .case-study-images {
+        height: 356px;
+    }
+
+    .case-study-wrapper {
+        width: 70vw;
+        top: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .case-study-images {
+        top: 62%;
+    }
+
+    .works-container .shadow-title {
+        left: 0;
+        top: 85%;
+    }
+
+    .about-me__avatar {
+        position: absolute !important;
+        top: -30px;
+        width: 100%;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+
+    }
+
+    .about-me__avatar > img {
+        width: 100%;
+        border-radius: 8px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .shadow-title {
+        display: none;
+    }
+
+    .about-me__info {
+        padding-bottom: 85px !important;
+    }
+    
+    .about-me {
+        padding: 16px;
+    }    
+
+    .about-me p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .notification-text {
+        width: 78%;
+    }
+
+    .notification-text p {
+        font-size: 16px;
+        line-height: 20px;
+        white-space: wrap;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .notification-box {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .notification-icon {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .signature {
+        width: 60px;
+    }
+}
 
 /* @media only screen and (max-width: 375px) {
 
