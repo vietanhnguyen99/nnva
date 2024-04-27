@@ -1,81 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Viet Anh Portfolio</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./assets/style.css">
-        <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>  
-        <script src="./assets/all.min.js"></script>
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    </head> 
-    <body class="w-full relative h-full m-0 scroll-smooth text-base cursor-default">
-        <div class="main-container text-left m-auto overflow-hidden w-full h-auto">
-            <!-- Video background -->
-            <video autoplay muted loop class="fixed inset-0 object-cover w-full h-full z-0" id="video-bg">
-                <source src="./assets/videos/video-bg6.mp4" type="video/mp4">
-            </video>
-            <!-- introduce -->
-            <div class="introduce-container h-screen w-full flex flex-col overflow-hidden relative z-10">
-                <div class="introduce-top w-full flex items-baseline">
-                    <div class="introduce-top__divier rounded flex-grow mr-4 h-1 bg-white"></div>
-                    <div class="introduce-top__name">
-                        <p class="uppercase color text-white font-bold text-2xl whitespace-no-wrap">nguyen ngo viet anh</p>
-                    </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viet Anh Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon"/>
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <script src="./assets/all.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head> 
+<body class="w-full relative h-full m-0 scroll-smooth text-base cursor-default">
+    <div class="main-container text-left m-auto overflow-hidden w-full h-auto">
+        <!-- Video background -->
+        <video autoplay muted loop class="fixed inset-0 object-cover w-full h-full z-0" id="video-bg">
+            <source src="./assets/videos/video-bg6.mp4" type="video/mp4">
+        </video>
+        <!-- introduce -->
+        <div class="introduce-container h-screen w-full flex flex-col overflow-hidden relative z-10">
+            <div class="introduce-top w-full flex items-baseline">
+                <div class="introduce-top__divier rounded flex-grow mr-4 h-1 bg-white"></div>
+                <div class="introduce-top__name">
+                    <p class="uppercase color text-white font-bold text-2xl whitespace-no-wrap">nguyen ngo viet anh</p>
                 </div>
-                <div class="introduce-center flex flex-grow flex-col justify-center items-center">
-                    <div class="introduce-center-box overflow-hidden">
-                        <div class="introduce-center-box__top flex justify-center relative">
-                            <p class="uppercase text-white text-3xl font-bold">welcome to my</p>
+            </div>
+            <div class="introduce-center flex flex-grow flex-col justify-center items-center">
+                <div class="introduce-center-box overflow-hidden">
+                    <div class="introduce-center-box__top flex justify-center relative">
+                        <p class="uppercase text-white text-3xl font-bold">welcome to my</p>
+                    </div>
+                    <div class="introduce-center-box__middle uppercase text-white text-6xl font-normal relative">
+                        <div class="portfolio-top h-auto">
+                            <img src="./assets/images/port-top.png" alt="">
                         </div>
-                        <div class="introduce-center-box__middle uppercase text-white text-6xl font-normal relative">
-                            <div class="portfolio-top h-auto">
-                                <img src="./assets/images/port-top.png" alt="">
-                            </div>
-                            <div class="portfolio-bottom h-auto">
-                                <img src="./assets/images/port-bot.png" alt="">
-                            </div>
+                        <div class="portfolio-bottom h-auto">
+                            <img src="./assets/images/port-bot.png" alt="">
                         </div>
-                        <div class="introduce-center-box__bottom uppercase text-white text-3xl w-full font-bold flex justify-center items-center">
-                            <div class="year-box flex justify-between">
-                                <div class="year">2023</div>
-                                <div class="year pr-4">2024</div>
-                            </div>
+                    </div>
+                    <div class="introduce-center-box__bottom uppercase text-white text-3xl w-full font-bold flex justify-center items-center">
+                        <div class="year-box flex justify-between">
+                            <div class="year">2023</div>
+                            <div class="year pr-4">2024</div>
                         </div>
                     </div>
                 </div>
-                <div class="introduce-bottom mt-auto w-full flex items-baseline">
-                    <div class="introduce-bottom__name">
-                        <p class="uppercase color text-white font-bold text-2xl whitespace-no-wrap">ui/ux designer</p>
-                    </div>
-                    <div class="introduce-bottom__divier rounded flex-grow ml-4 h-1 bg-white"></div>
+            </div>
+            <div class="introduce-bottom mt-auto w-full flex items-baseline">
+                <div class="introduce-bottom__name">
+                    <p class="uppercase color text-white font-bold text-2xl whitespace-no-wrap">ui/ux designer</p>
                 </div>
-
-                <div class="cursor"></div>
-                <div class="cursor2"></div>  
-                <div id="overlay"></div>   
-            </div> 
-        </div>
-    
-        <script src="./assets/main.js"></script>
-        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
+                <div class="introduce-bottom__divier rounded flex-grow ml-4 h-1 bg-white"></div>
+            </div>
+            <div class="cursor"></div>
+            <div class="cursor2"></div>  
+            <div id="overlay"></div>   
+        </div> 
+    </div>
+    <script src="./assets/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() {
+                document.getElementById('overlay').classList.add('expandOverlay');
                 setTimeout(function() {
-                    document.getElementById('overlay').classList.add('expandOverlay');
-                    setTimeout(function() {
-                        window.location.href = "about.html";
-                    }, 1500);
-                }, 3000); 
-            });
-        </script>
-    </body>
-    
+                    window.location.href = "about.html";
+                }, 1500);
+            }, 3000); 
+        });
+    </script>
+</body>
 </html>
