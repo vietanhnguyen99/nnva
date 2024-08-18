@@ -136,7 +136,7 @@ body {
     align-items: center;
 }
 
-.loader {
+/* .loader {
     top: 0;
     left: 0;
     position: fixed;
@@ -162,7 +162,7 @@ body {
     border-top-color: #363636;
     border-radius: 50%;
     animation: loading 0.4s ease infinite;
-}
+} */
 
 #overlay {
     position: absolute;

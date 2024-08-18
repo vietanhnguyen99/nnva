@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
     document.body.removeChild(loader); 
   });
 
-  const curveText = document.getElementById('curve-text');
+const curveText = document.getElementById('curve-text');
 const navbar = document.querySelector('.navbar');
 const curveTextImg = document.querySelector('.curve-text img');
 const scrolldownIcon = document.querySelector('.scrolldown-icon');
