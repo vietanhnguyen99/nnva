@@ -35,6 +35,10 @@ body {
     transition: all 0.3s;
 }
 
+#video-bg {
+    filter: grayscale(0.20);
+}
+
 :root {
     --linear-bg-color: linear-gradient(134deg, rgba(255, 255, 255, 0.50) 0%, rgba(235, 235, 235, 0.37) 20.07%, rgba(224, 224, 224, 0.29) 28.14%, rgba(212, 212, 212, 0.21) 39.91%, rgba(207, 207, 207, 0.18) 48.10%, rgba(202, 202, 202, 0.14) 53.59%, rgba(200, 200, 200, 0.13) 58.73%, rgba(196, 196, 196, 0.10) 66.80%);  
 }
@@ -55,8 +59,7 @@ body {
     height: 200px;
     margin-top: 300px;
     border-radius: 50%;
-    background: rgba(243, 89, 0, 0.8);
-
+    background: rgba(29, 190, 102, 0.8);
 }
 
 .shadow-title {
@@ -339,8 +342,8 @@ body {
 }
 
 .about-me span {
-    background: rgb(254,138,56);
-    background: linear-gradient(90deg, rgba(254,138,56,1) 0%, rgba(250,92,55,1) 100%);
+    background: #1DBE66;
+    background: linear-gradient(90deg, rgba(29, 190, 102, 1) 0%, rgba(11, 177, 86, 1) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -482,7 +485,7 @@ body {
 }
 
 .notification-text span {
-    background: linear-gradient(90deg, rgba(254,138,56,1) 0%, rgba(250,92,55,1) 100%);
+    background: linear-gradient(90deg, rgba(29, 190, 102, 1) 0%, rgba(11, 177, 86, 1) 100%);
     font-weight: bold;
     -webkit-background-clip: text;
     background-clip: text;
@@ -721,7 +724,7 @@ body {
 }	
 .case-study-wrapper .case-study-name.active a {
 	opacity: 1;
-	color: rgba(250,92,55,1);
+	color: #ffffff;
 }	
 .case-study-images {
     position: absolute;
@@ -927,13 +930,13 @@ body {
 }
 
 .email a:hover {
-    color: #e6683c;
+    color: #1DBE66;
 }
 
 .contact-line {
     width: 100%;
     height: 16vh;
-    background: linear-gradient(90deg, rgb(255, 172, 64) 0%, rgba(250,92,55,1) 100%);
+    background: linear-gradient(90deg, rgba(29, 190, 102, 1) 0%, rgba(11, 177, 86, 1) 100%);
     font-family: Waltzing;
     font-size: 32px;
     animation: letswork 1s;
@@ -968,7 +971,7 @@ body {
 .contract::before {
     content: "";
     position: absolute;
-    background: linear-gradient(45deg, rgba(254,138,56,1) 0%, rgba(250,92,55,1) 100%);
+    background: linear-gradient(90deg, rgba(29, 190, 102, 1) 0%, rgba(11, 177, 86, 1) 100%);
     width: 1px;
     height: 1px;
     top: 0;
@@ -1261,8 +1264,8 @@ body {
 
 @keyframes expandOverlay {
     to {
-        width: 3000px;
-        height: 3000px;
+        width: 3500px;
+        height: 3500px;
     }
 }
 
