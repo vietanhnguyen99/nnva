@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Viet Anh Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./assets/style.css">
-        <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon"/>
+        <link rel="icon" href="./assets/images/favicon.png" type="image/png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>  
-        <script src="./assets/all.min.js"></script>
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./assets/style.css">
+        <script src="https://cdn.tailwindcss.com" defer></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" defer></script>
+        <script src="./assets/all.min.js" defer></script>
     </head> 
     <body class="w-full relative h-full m-0 scroll-smooth text-base cursor-default">
         <div class="main-container text-left m-auto overflow-hidden w-full h-auto">
             <!-- Video background -->
-            <video autoplay muted loop class="fixed inset-0 object-cover w-full h-full z-0" id="video-bg">
+            <video autoplay muted loop playsinline class="fixed inset-0 object-cover w-full h-full z-0" id="video-bg" aria-label="Background video">
                 <source src="./assets/videos/video-bg4.mp4" type="video/mp4">
             </video>
             <!-- introduce -->
@@ -36,10 +37,10 @@
                         </div>
                         <div class="introduce-center-box__middle uppercase text-white text-6xl font-normal relative">
                             <div class="portfolio-top h-auto">
-                                <img src="./assets/images/port-top.png" alt="">
+                                <img src="./assets/images/port-top.png" alt="Portfolio title top">
                             </div>
                             <div class="portfolio-bottom h-auto">
-                                <img src="./assets/images/port-bot.png" alt="">
+                                <img src="./assets/images/port-bot.png" alt="Portfolio title bottom">
                             </div>
                         </div>
                         <div class="introduce-center-box__bottom uppercase text-white text-3xl w-full font-bold flex justify-center items-center">
@@ -57,15 +58,15 @@
                     <div class="introduce-bottom__divier rounded flex-grow ml-4 h-1 bg-white"></div>
                 </div>
 
-                <div class="cursor"></div>
-                <div class="cursor2"></div>  
+                <div class="cursor" aria-hidden="true"></div>
+                <div class="cursor2" aria-hidden="true"></div>  
                 <div id="overlay"></div>   
             </div> 
         </div>
-    
-        <script src="./assets/main.js"></script>
-        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" defer></script>
+        <script src="./assets/main.js" defer></script>
         <script>
             document.addEventListener("DOMContentLoaded", function() {
                 setTimeout(function() {
@@ -75,7 +76,7 @@
                     }, 1500);
                 }, 3000); 
             });
-        </script>
-    </body>
+        </script> 
+    </body> 
     
 </html>
